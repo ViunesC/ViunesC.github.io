@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "NotoM";
+    src:url("../fonts/NotoSans-Medium.ttf");
+}
+
+a{ text-decoration:none} 
+a:hover{ text-decoration:none}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+body{
+    margin: 0px;
+    font-family: "NotoM";
+}
+
+.header {
+   background-image: url("../images/header.jpg");
+   background-size: cover;
+   background-position: center;
+   padding: 50px;
+   background-repeat: no-repeat;
+   color:white;
+}
+
+
+/* Fixed navigation bar */
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: rgb(243, 243, 243);
+   position: -webkit-sticky; /* Safari */
+   position: sticky;
+   top: 0;
+}
+  
+li {
+   float: left;
+   border-right: 1px solid #ccc;
+}
+  
+li:last-child {
+   border-right: none;
+}
+  
+li a {
+   display: block;
+   color: black;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+  
+li a:hover:not(.active) {
+   background-color: deepskyblue;
+   color: white;
+}
+  
+.active {
+    color: deepskyblue;
+}
+
+
+/* Fixed interactive button */
+#right_icon {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    float:　right;
+}
+
+
+/* Main part */
+.container {
+    background-image: url("../images/bg/bg.jpg");
+    background-attachment: fixed;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.transbox {
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 1px solid rgb(228, 227, 227);
+    background-color: #ffffff;
+    opacity: 0.8;
+    filter: alpha(opacity=80); /*For IE8 and Earlier*/
+    padding: 5% 2% 5% 2%;
+}
+
+#linkto:hover {
+    text-decoration: none;
+}
+
+#linkto:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+
+/*footer*/
+.footer {
+    text-align: center;
+    font-size: 60%;
+    margin-top: 10%;
+    color:rgb(163, 163, 163);
+}
