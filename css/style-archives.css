@@ -12,7 +12,6 @@ img {
     margin-right: auto;
   }
 
-
 body{
     margin: 0px;
     font-family: "NotoM";
@@ -117,6 +116,12 @@ li a:hover:not(.active) {
     text-align: center;
     padding-bottom: 0.5em;
 }
+
+#Capt img{
+    max-width: 100%;
+    height: auto;
+}
+
 
 .quadcolumn {
     float: left;
