@@ -10,9 +10,6 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    background-size:contain|cover;
-    width:100%;
-    height: auto;
   }
 
 
@@ -121,6 +118,11 @@ li a:hover:not(.active) {
     padding-bottom: 0.5em;
 }
 
+#Capt img{
+    background-size:contain|cover;
+    width:100%;
+    height: auto;
+}
 .quadcolumn {
     float: left;
     width: 20%;
