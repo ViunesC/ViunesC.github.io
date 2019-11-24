@@ -116,6 +116,9 @@ li a:hover:not(.active) {
 #Capt {
     text-align: center;
     padding-bottom: 0.5em;
+    background-size:contain|cover;
+    width:100%;
+    height: auto;
 }
 
 .quadcolumn {
